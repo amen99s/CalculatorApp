@@ -1,0 +1,69 @@
+
+<div class="personal-cont">
+<div class="container">
+    <mat-grid-list  cols="4" rowHeight="fit" style="height: 230px;width: 260px;">
+        <mat-grid-tile colspan="4">
+            <input type="text" value={{value}} class="inp" readonly >
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="" class="numbers" (click)="Cleardisplay()">C</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="" class="numbers">+/-</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="" class="numbers" (click)="getArthmetic('%')">%</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="" class="numbers" (click)="getArthmetic('/')">/</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getSeven()">7</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getEight()">8</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getNine()">9</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="" class="numbers" (click)="getArthmetic('*')">*</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getFour()">4</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getFive()">5</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getSix()">6</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button class="numbers" (click)="getArthmetic('-')">-</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getOne()">1</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getTwo()">2</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getThree()">3</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="" class="numbers" (click)="getArthmetic('+')">+</button>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="2">
+            <button mat-flat-button color="primary" class="numbers" style="width:260px;" (click)="getZero()">0</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="primary" class="numbers" (click)="getDot()">.</button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <button mat-flat-button color="" class="numbers" (click)="Equal(beforeValue , arthmetic)">=</button>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+</div>
+
+

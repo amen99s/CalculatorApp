@@ -1,0 +1,42 @@
+.numbers{
+    border-radius: 800px;
+    font-size: 25px;
+    width:auto;
+    height: 100%;
+    /* margin: 10px; */
+}
+
+.inp{
+    width:520px;
+    height: 35px;
+    border: none;
+    border-radius: 180px;
+    background-color:rgb(219, 143, 214);
+    font-size: 20px;
+    text-align: left;
+}
+
+mat-grid-list{
+    margin: auto;
+    background-color: black;
+    border: 10px solid rgb(177, 44, 132);
+    border-radius: 2vh;
+    
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.personal-cont{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+mat-grid-tile{
+    width:300px
+}
