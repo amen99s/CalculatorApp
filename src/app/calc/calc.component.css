@@ -1,9 +1,9 @@
-.numbers{
+ .numbers{
     border-radius: 800px;
     font-size: 25px;
     width:auto;
     height: 100%;
-    /* margin: 10px; */
+   
 }
 
 .inp{
@@ -39,4 +39,6 @@ mat-grid-list{
 
 mat-grid-tile{
     width:300px
-}
+} 
+
+ 
